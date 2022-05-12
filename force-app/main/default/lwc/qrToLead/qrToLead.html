@@ -1,0 +1,63 @@
+<template>
+    <div class="slds-m-left_small slds-m-right_small slds-m-top_medium slds-align_absolute-center slds-text-align_center slds-text-heading_medium">
+        {labels.PAGE_TITLE}
+    </div>
+
+    <!-- The click-to-scan button;
+        Disabled if BarcodeScanner isn't available -->
+    <div class="slds-text-align_center slds-m-top_large">
+        <lightning-button
+            variant="brand"
+            class="slds-var-m-left_x-small slds-button__icon_large"
+            disabled={scanButtonDisabled}
+            icon-name="utility:cases"
+            label={labels.SCAN_QR_CODE}
+            title={labels.SCAN_QR_CODE_TITLE}
+            onclick={handleBeginScanClick}>
+        </lightning-button>
+    </div>
+
+    <div class="slds-m-left_small slds-m-right_small slds-m-top_large slds-align_absolute-center slds-text-align_center slds-text-heading_medium">
+        {labels.PAGE_SUBTITLE}
+    </div>
+
+    <div class="slds-grid slds-wrap slds-gutters slds-m-top_x-large slds-m-left_small">
+        <div class="slds-col slds-size_1-of-4 slds-var-m-top_x-small slds-text-align_center">
+            <span class="slds-text-body_small">{labels.FIRST_NAME_LABEL} </span>
+        </div>
+        <div class="slds-col slds-size_3-of-4 slds-text-align_left slds-var-m-top_x-small">
+            <span class="slds-text-heading_large">{lead.FirstName}</span>
+        </div>
+
+        <div class="slds-col slds-size_1-of-4 slds-var-m-top_x-small slds-text-align_center">
+            <span class="slds-text-body_small">{labels.LAST_NAME_LABEL} </span>
+        </div>
+        <div class="slds-col slds-size_3-of-4 slds-text-align_left slds-var-m-top_x-small">
+            <span class="slds-text-heading_large">{lead.LastName}</span>
+        </div>
+
+        <div class="slds-col slds-size_1-of-4 slds-var-m-top_x-small">
+            <span class="slds-text-body_small">{labels.COMPANY_LABEL} </span>
+        </div>
+        <div class="slds-col slds-size_3-of-4 slds-text-align_left slds-var-m-top_x-small">
+            <span class="slds-text-heading_large">{lead.Company}</span>
+        </div>
+
+        <div class="slds-col slds-size_1-of-4 slds-var-m-top_x-small">
+            <span class="slds-text-body_small">{labels.EMAIL_LABEL} </span>
+        </div>
+        <div class="slds-col slds-size_3-of-4 slds-text-align_left slds-var-m-top_x-small">
+            <span class="slds-text-heading_small">{lead.Email}</span>
+        </div>
+    </div>
+
+    <div class="slds-grid slds-grid_vertical-align-end">
+        <div class="slds-m-top_xx-large slds-align_absolute-center">
+            <span class="slds-text-body_small">v0.1A custom labels</span>
+        </div> 
+    </div>
+    <div class="slds-m-left_small slds-m-right_small slds-m-top_medium slds-align_absolute-center slds-text-align_center slds-text-heading_medium">
+        <lightning-input class="slds-p-left_xx-large" type="checkbox" onchange={onDebugModeChange} checked={debugModeEnabled} label={labels.ENABLE_DEBUG_MODE} ></lightning-input>
+    </div>
+
+</template>

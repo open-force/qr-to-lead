@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>COMPANY_LABEL</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company Label</shortDescription>
+        <value>Company:</value>
+    </labels>
+    <labels>
+        <fullName>DUPLICATE_LEAD_CHECK_MESSAGE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Duplicate lead check message</shortDescription>
+        <value>Running the duplicate lead check failed. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>DUPLICATE_LEAD_CHECK_TITLE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Duplicate lead check title</shortDescription>
+        <value>Duplicate Lead Check</value>
+    </labels>
+    <labels>
+        <fullName>EMAIL_LABEL</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email label</shortDescription>
+        <value>Email:</value>
+    </labels>
+    <labels>
+        <fullName>ENABLE_DEBUG_MODE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable debug mode</shortDescription>
+        <value>Enable debug mode</value>
+    </labels>
+    <labels>
+        <fullName>FIRST_NAME_LABEL</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First name label</shortDescription>
+        <value>First Name:</value>
+    </labels>
+    <labels>
+        <fullName>LAST_NAME_LABEL</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last name label</shortDescription>
+        <value>Last Name:</value>
+    </labels>
+    <labels>
+        <fullName>LEAD_EXISTS_MESSAGE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead exists message</shortDescription>
+        <value>You already have &quot;{0}&quot; as a lead.</value>
+    </labels>
+    <labels>
+        <fullName>LEAD_EXISTS_TITLE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead exists title</shortDescription>
+        <value>Lead Exists</value>
+    </labels>
+    <labels>
+        <fullName>LOAD_MAPPINGS_ERROR_MESSAGE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Load mappings error message</shortDescription>
+        <value>Unable to load custom vCard/Lead mappings.</value>
+    </labels>
+    <labels>
+        <fullName>LOAD_MAPPINGS_ERROR_TITLE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Load mappings error title</shortDescription>
+        <value>Configuration Error</value>
+    </labels>
+    <labels>
+        <fullName>NEW_LEAD_ERROR_DESCRIPTION</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New lead error description</shortDescription>
+        <value>Unable to create lead. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>NEW_LEAD_ERROR_TITLE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New lead error title</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>NEW_LEAD_SUCCESS_MESSAGE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New lead success message</shortDescription>
+        <value>Lead &quot;{0}&quot; has been created.</value>
+    </labels>
+    <labels>
+        <fullName>NEW_LEAD_SUCCESS_TITLE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New lead success title</shortDescription>
+        <value>New Lead</value>
+    </labels>
+    <labels>
+        <fullName>PAGE_SUBTITLE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page subtitle</shortDescription>
+        <value>Position the QR code within the view to create a Lead record.</value>
+    </labels>
+    <labels>
+        <fullName>PAGE_TITLE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The page title</shortDescription>
+        <value>Tap the button below to start scanning.</value>
+    </labels>
+    <labels>
+        <fullName>SCANNING_ERROR_MESSAGE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scanning error message</shortDescription>
+        <value>There was a problem scanning the QR code. Please try again.</value>
+    </labels>
+    <labels>
+        <fullName>SCANNING_ERROR_TITLE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scanning error title</shortDescription>
+        <value>Scanning Error</value>
+    </labels>
+    <labels>
+        <fullName>SCANNING_NOT_AVAILABLE_MESSAGE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scanning not available message</shortDescription>
+        <value>Try again from the Salesforce app on a mobile device.</value>
+    </labels>
+    <labels>
+        <fullName>SCANNING_NOT_AVAILABLE_TITLE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scanning not available title</shortDescription>
+        <value>Scanning Not Available</value>
+    </labels>
+    <labels>
+        <fullName>SCAN_QR_CODE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scan QR code</shortDescription>
+        <value>Scan QR Code</value>
+    </labels>
+    <labels>
+        <fullName>SCAN_QR_CODE_TITLE</fullName>
+        <categories>QRtoLead</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scan QR code title</shortDescription>
+        <value>Open a camera view and look for a QR code to scan</value>
+    </labels>
+</CustomLabels>

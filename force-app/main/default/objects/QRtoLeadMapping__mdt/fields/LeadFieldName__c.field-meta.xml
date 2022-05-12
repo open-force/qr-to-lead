@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadFieldName__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>The name of the Lead field that will receive specific vCard data.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>The name of the Lead field that will receive specific vCard data.</inlineHelpText>
+    <label>Lead Field Name</label>
+    <length>40</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>
