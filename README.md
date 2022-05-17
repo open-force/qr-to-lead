@@ -44,7 +44,7 @@ An early version of QR-to-Lead was used successfully by [Cactusforce 2022](https
 # Deployment
 QR-to-Lead can be deployed using the [GitHub Salesforce Deploy Tool](https://github.com/afawcett/githubsfdeploy).  
 <br>
-<a href="https://githubsfdeploy.herokuapp.com?owner=marisahambleton&repo=qr-to-lead&ref=main">
+<a href="https://githubsfdeploy.herokuapp.com?owner=open-force&repo=qr-to-lead&ref=main">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
