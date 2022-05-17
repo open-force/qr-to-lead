@@ -22,24 +22,24 @@ An early version of QR-to-Lead was used successfully by [Cactusforce 2022](https
 # Quick Start
 ### Preparing the Salesforce Environment
 1. Create a [Development Edition Org](https://developer.salesforce.com/signup) or use an existing one.
-2. Deploy this app to the org using the GitHub Salesforce Deploy Tool (see next section).
+2. Deploy this app to the org using the GitHub Salesforce Deploy Tool (see the [Deployment section](https://github.com/open-force/qr-to-lead#deployment) for details).
 3. Log into the org and create a new user (e.g. "QR2L User"). Assign the `QR-to-Lead User` profile and finish the normal Salesforce user activation process. A permission set is also available to provide similar access to an existing user.
 
 ### Setting up the Device
-5. Install the Salesforce mobile app on your iOS or Android device ([Trailhead](https://trailhead.salesforce.com/content/learn/modules/lex_salesforce1_basics/lex_salesforce1_basics_getting_started)).
-6. Launch the Salesforce mobile app. If using a sandbox rather than a Dev Org for your environment, you will need change the server to "Sandbox".
-7. Sign in with the QR-to-Lead-enabled user. After a few moments, you should see a screen similar to this (insert image here).
+4. Install the Salesforce mobile app on your iOS or Android device ([Trailhead](https://trailhead.salesforce.com/content/learn/modules/lex_salesforce1_basics/lex_salesforce1_basics_getting_started)).
+5. Launch the Salesforce mobile app. If using a sandbox rather than a Dev Org for your environment, you will need change the server to "Sandbox".
+6. Sign in with the QR-to-Lead-enabled user. After a few moments, you should see a screen similar to this (insert image here).
 
 ### Using the App
-8. Tap on the QR scan icon on the bottom button bar to switch to the scanning page. 
-9. Tap on the blue "Scan QR Code" button to start the scanner and then position the QR code within the view. Use one of the QR codes below. The code will scan automatically. 
+7. Tap on the QR scan icon on the bottom button bar to switch to the scanning page. 
+8. Tap on the blue "Scan QR Code" button to start the scanner and then position the QR code within the view. Use one of the QR codes below. The code will scan automatically. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Astro QR code](/docs/images/astro-qr-code-150x150.png?raw=true)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Codey QR code](/docs/images/codey-qr-code-150x150.png?raw=true)
 
-11. Once a QR code has scanned and processed, a green toast will appear stating that the lead was created in Salesforce. Its basic info should also be displayed on the page.
-12. Switch to the Leads tab. You should now see the lead in the list and be able to edit or delete it.
+9. Once a QR code has scanned and processed, a green toast will appear stating that the lead was created in Salesforce. Its basic info should also be displayed on the page.
+10. Switch to the Leads tab. You should now see the lead in the list and be able to edit or delete it.
 
 # Deployment
 QR-to-Lead can be deployed using the [GitHub Salesforce Deploy Tool](https://github.com/afawcett/githubsfdeploy).  
