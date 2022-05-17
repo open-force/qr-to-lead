@@ -53,11 +53,11 @@
 
     <div class="slds-grid slds-grid_vertical-align-end">
         <div class="slds-m-top_xx-large slds-align_absolute-center">
-            <span class="slds-text-body_small">v0.1A custom labels</span>
+            <span class="slds-text-body_small" style=”display: none;” >v0.9</span>
         </div> 
     </div>
     <div class="slds-m-left_small slds-m-right_small slds-m-top_medium slds-align_absolute-center slds-text-align_center slds-text-heading_medium">
-        <lightning-input class="slds-p-left_xx-large" type="checkbox" onchange={onDebugModeChange} checked={debugModeEnabled} label={labels.ENABLE_DEBUG_MODE} ></lightning-input>
+        <lightning-input class="slds-p-left_xx-large" type="checkbox" onchange={onDebugModeChange} checked={debugModeEnabled} style=”display: none;” label={labels.ENABLE_DEBUG_MODE} ></lightning-input>
     </div>
 
 </template>
