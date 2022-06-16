@@ -7,15 +7,15 @@ There are several steps required in order to use QR-to-Lead for your conference.
     - Create a document for mail merge. For example, Microsoft Word and Excel can be used for this process.
     - Print a test badge so QR codes will be the approximate size.
 
-2.  Deploy `QR-to-Lead` to your org using the Deployment steps noted in the README.
+2.  Deploy `QR-to-Lead` to your org using the Deployment steps noted in the [README](/README.md#deployment).
 
-3.  Disable the Lead duplicate check in your org. This will allow the same lead to be inserted more than once. Each user will only see their own instance.
+3.  Disable the Lead duplicate check in your org. This will allow more than one user to scan the same lead. Each user will only see their own instance.
 
 4.  On your device, launch the Salesforce mobile app and scan a vCard QR code using the app.  
 
 5.  Verify the lead has been created in Salesforce.  
 
-6.  Verify that your QR-to-Lead user is not able to see other objects, reports, etc. See issue #4 for more info.  
+6.  Verify that your QR-to-Lead user is not able to see other objects, reports, etc. See [#4](https://github.com/open-force/qr-to-lead/issues/4) for more info.  
 
 7.  Create your users in the org with the `QR-to-Lead` profile. Don't send their welcome emails just yet!  
 
