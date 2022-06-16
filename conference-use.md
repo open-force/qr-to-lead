@@ -13,9 +13,9 @@ There are several steps required in order to use QR-to-Lead for your conference.
 
 4.  On your device, launch the Salesforce mobile app and scan a vCard QR code using the app.  
 
-5.  Verify the lead has been created in Salesforce.  
+5.  Verify the lead has been created in Salesforce and data landed where you expected.  
 
-6.  Verify that your QR-to-Lead user is not able to see other objects, reports, etc. See [#4](https://github.com/open-force/qr-to-lead/issues/4) for more info.  
+6.  In the mobile app, verify that your QR-to-Lead user is not able to see other objects, reports, etc. See [#4](https://github.com/open-force/qr-to-lead/issues/4) for more info.  
 
 7.  Create your users in the org with the `QR-to-Lead` profile. Don't send their welcome emails just yet!  
 
