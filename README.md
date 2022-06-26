@@ -64,6 +64,7 @@ The process should complete successfully within a few minutes:
 Deployment Started
 Status: Queued 
 Status: InProgress 
+Status: InProgress 
 ...
 Status: Completed 
 Deployment Complete

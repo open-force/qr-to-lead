@@ -32,9 +32,18 @@
         <members>*</members>
         <name>ContentAsset</name>
     </types>
+	<types>
+		<members>*</members>
+		<name>CustomTab</name>
+	</types>
     <types>
         <members>*</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>QR_to_Lead</members>
+        <members>QR_to_Lead/QR_to_Lead_tab</members>
+        <name>Document</name>
     </types>
     <types>
         <members>*</members>
@@ -52,5 +61,5 @@
         <members>unfiled$public/QRtoLead_Leads_Created_Today_Report</members>
         <name>Report</name>
     </types>
-    <version>54.0</version>
+    <version>55.0</version>
 </Package>
