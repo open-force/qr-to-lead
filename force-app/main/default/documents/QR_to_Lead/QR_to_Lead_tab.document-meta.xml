@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is the image used in QR-to-Lead&apos;s Scan custom tab.</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>QR-to-Lead-tab</name>
+    <public>true</public>
+</Document>
