@@ -69,6 +69,27 @@ Status: InProgress
 Status: Completed 
 Deployment Complete
 ```
+# App Customizations
+
+## Text Changes
+Custom labels contain the text used throughout the app except for the application name and the custom tab (see below). Each custom label uses the `QRtoLead` category.
+
+To change a label's value:
+1. In Setup, search for "Custom Label"
+2. Find the custom label to change and update its value. Save changes.
+3. Restart the Salesforce Mobile app to see the new value. You may also need to clear the Salesforce Mobile's cache.
+
+### Changing the Application Name
+1. In Setup, search for `App Manager`
+2. Edit `QR-to-Lead` app
+3. Change the `App Name` field to the new value and click Save button.
+4. Change the `App Branding` elements (image, color) if desired.
+
+### Changing the Lead Scan Tab's Label
+1. In Setup, search for "tabs" and select "Tabs.
+2. Edit the "Scan" Lightning Component tab.
+3. Change the tab label to your new value.
+4. Change the tab style if desired.
 
 # vCard/QR Code Generators
 - [QR Code - Online](https://qrcode-online.com/vcard)
